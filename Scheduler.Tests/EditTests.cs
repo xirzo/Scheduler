@@ -31,9 +31,7 @@ public class EditTests
     [Test]
     public void EditLabwork()
     {
-        var editService = new EditService<Labwork>(_repository);
-        
-        var editResult = editService.TryEdit(_author, _labwork, labwork => labwork.Description = "New description");
+        var editResult = EditService<Labwork>.TryEdit(_author, _labwork, labwork => labwork.Description = "New description");
 
         Assert.Multiple(() =>
         {

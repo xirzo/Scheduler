@@ -9,3 +9,4 @@ C:\Users\garry\RiderProjects\Scheduler\Scheduler\obj\Debug\net9.0\Scheduler.dll
 C:\Users\garry\RiderProjects\Scheduler\Scheduler\obj\Debug\net9.0\refint\Scheduler.dll
 C:\Users\garry\RiderProjects\Scheduler\Scheduler\obj\Debug\net9.0\Scheduler.pdb
 C:\Users\garry\RiderProjects\Scheduler\Scheduler\obj\Debug\net9.0\ref\Scheduler.dll
+C:\Users\garry\RiderProjects\Scheduler\Scheduler\obj\Debug\net9.0\Scheduler.sourcelink.json

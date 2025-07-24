@@ -101,3 +101,4 @@ C:\Users\garry\RiderProjects\Scheduler\Scheduler.Tests\bin\Debug\net9.0\.msCover
 C:\Users\garry\RiderProjects\Scheduler\Scheduler.Tests\bin\Debug\net9.0\CoverletSourceRootsMapping_Scheduler.Tests
 C:\Users\garry\RiderProjects\Scheduler\Scheduler.Tests\bin\Debug\net9.0\Scheduler.dll
 C:\Users\garry\RiderProjects\Scheduler\Scheduler.Tests\bin\Debug\net9.0\Scheduler.pdb
+C:\Users\garry\RiderProjects\Scheduler\Scheduler.Tests\obj\Debug\net9.0\Scheduler.Tests.sourcelink.json
