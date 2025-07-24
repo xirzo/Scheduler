@@ -1,6 +1,6 @@
 ﻿namespace Scheduler.Entities
 {
-    public class Labwork : IEntity<Labwork>, IAuthored
+    public class Labwork : IIdentifiable, ICloneable<Labwork>, IAuthored
     {
         public Labwork(ulong identifier, string name, string description, string criteria, ulong maxScore, User author, ulong? parentIdentifier)
         {

@@ -17,14 +17,14 @@ public partial class App : Application
         container.BindType<Repository<Labwork>>().AsSingleton();
         container.BindType<Repository<Subject>>().AsSingleton();
         
-        container.BindType<EntityFactory<User>>().AsSingleton();
-        container.BindType<EntityFactory<Labwork>>().AsSingleton();
-        container.BindType<EntityFactory<Subject>>().AsSingleton();
-        
+        container.BindType<CloneableFactory<User>>().AsSingleton();
+        container.BindType<CloneableFactory<Labwork>>().AsSingleton();
+        container.BindType<CloneableFactory<Subject>>().AsSingleton();
+
         container.BindType<UserSelector>().AsSingleton();
 
-        var userFactory = container.Resolve<EntityFactory<User>>();
-        var subjectFactory = container.Resolve<EntityFactory<Subject>>();
+        var userFactory = container.Resolve<CloneableFactory<User>>();
+        var subjectFactory = container.Resolve<CloneableFactory<Subject>>();
 
         userFactory.Create(id => new User(
             identifier: id,

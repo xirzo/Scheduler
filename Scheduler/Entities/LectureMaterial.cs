@@ -1,6 +1,6 @@
 namespace Scheduler.Entities;
 
-public class LectureMaterial : IEntity<LectureMaterial>, IAuthored
+public class LectureMaterial : IIdentifiable, ICloneable<LectureMaterial>, IAuthored
 {
     public LectureMaterial(ulong identifier, string name, string description, string content, User author, ulong? parentIdentifier)
     {

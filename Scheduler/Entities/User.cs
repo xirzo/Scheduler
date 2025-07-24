@@ -1,6 +1,6 @@
 ﻿namespace Scheduler.Entities;
 
-public class User : IEntity<User>
+public class User : IIdentifiable, ICloneable<User>
 {
     public User(ulong identifier, string name)
     {

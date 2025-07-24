@@ -6,7 +6,7 @@ public enum FinalsType
     Test,
 }
 
-public class Subject : IEntity<Subject>, IAuthored
+public class Subject : IIdentifiable, ICloneable<Subject>, IAuthored
 {
     public Subject(
         ulong identifier, 

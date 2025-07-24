@@ -1,13 +1,13 @@
-﻿using Scheduler.Entities;
+using Scheduler.Entities;
 using Scheduler.Repositories;
 
 namespace Scheduler.Factories;
 
-public class EntityFactory<T> where T : IEntity<T>
+public class IdentifiableFactory<T> where T : IIdentifiable
 {
     private readonly Repository<T> _repository;
 
-    public EntityFactory(Repository<T> repository)
+    public IdentifiableFactory(Repository<T> repository)
     {
         _repository = repository;
     }
@@ -18,12 +18,5 @@ public class EntityFactory<T> where T : IEntity<T>
         var entity = factory(id);
         _repository.Add(entity);
         return entity;
-    }
-
-    public T CreateFrom(T parent)
-    {
-        var child = parent.Clone(_repository.LastId);
-        _repository.Add(child);
-        return child;
     }
 }

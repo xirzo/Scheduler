@@ -7,14 +7,14 @@ namespace Scheduler.Tests;
 public class LabworkCreationTests
 {
     private Repository<Labwork> _repository;
-    private EntityFactory<Labwork> _factory;
+    private CloneableFactory<Labwork> _factory;
     private User _author;
     
     [SetUp]
     public void Setup()
     {
         _repository = [];
-        _factory = new EntityFactory<Labwork>(_repository);
+        _factory = new CloneableFactory<Labwork>(_repository);
         _author = new User(0, "Alex");
     }
     
