@@ -1,0 +1,11 @@
+C:\Users\garry\RiderProjects\Scheduler\Scheduler\bin\Debug\net9.0\Scheduler.deps.json
+C:\Users\garry\RiderProjects\Scheduler\Scheduler\bin\Debug\net9.0\Scheduler.dll
+C:\Users\garry\RiderProjects\Scheduler\Scheduler\bin\Debug\net9.0\Scheduler.pdb
+C:\Users\garry\RiderProjects\Scheduler\Scheduler\obj\Debug\net9.0\Scheduler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\garry\RiderProjects\Scheduler\Scheduler\obj\Debug\net9.0\Scheduler.AssemblyInfoInputs.cache
+C:\Users\garry\RiderProjects\Scheduler\Scheduler\obj\Debug\net9.0\Scheduler.AssemblyInfo.cs
+C:\Users\garry\RiderProjects\Scheduler\Scheduler\obj\Debug\net9.0\Scheduler.csproj.CoreCompileInputs.cache
+C:\Users\garry\RiderProjects\Scheduler\Scheduler\obj\Debug\net9.0\Scheduler.dll
+C:\Users\garry\RiderProjects\Scheduler\Scheduler\obj\Debug\net9.0\refint\Scheduler.dll
+C:\Users\garry\RiderProjects\Scheduler\Scheduler\obj\Debug\net9.0\Scheduler.pdb
+C:\Users\garry\RiderProjects\Scheduler\Scheduler\obj\Debug\net9.0\ref\Scheduler.dll

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduler", "Scheduler\Scheduler.csproj", "{D75B23CB-8950-467F-B2C6-1550F894E691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduler.Tests", "Scheduler.Tests\Scheduler.Tests.csproj", "{6B0F2980-7D40-4FC4-8650-B0C05579E298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduler.WPF", "Scheduler.WPF\Scheduler.WPF.csproj", "{EB2E2423-1DFB-4E22-B528-902E7DA8EA2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D75B23CB-8950-467F-B2C6-1550F894E691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75B23CB-8950-467F-B2C6-1550F894E691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75B23CB-8950-467F-B2C6-1550F894E691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75B23CB-8950-467F-B2C6-1550F894E691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B0F2980-7D40-4FC4-8650-B0C05579E298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B0F2980-7D40-4FC4-8650-B0C05579E298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B0F2980-7D40-4FC4-8650-B0C05579E298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B0F2980-7D40-4FC4-8650-B0C05579E298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB2E2423-1DFB-4E22-B528-902E7DA8EA2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2E2423-1DFB-4E22-B528-902E7DA8EA2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB2E2423-1DFB-4E22-B528-902E7DA8EA2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2E2423-1DFB-4E22-B528-902E7DA8EA2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

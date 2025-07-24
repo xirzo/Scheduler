@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vZopXT54xmY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\garry\\RiderProjects\\Scheduler\\Scheduler.WPF\\Scheduler.WPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\garry\\.nuget\\packages\\xirzodicontainer\\1.1.1\\xirzodicontainer.1.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
