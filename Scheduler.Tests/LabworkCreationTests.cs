@@ -4,7 +4,6 @@ using Scheduler.Repositories;
 
 namespace Scheduler.Tests;
 
-
 public class LabworkCreationTests
 {
     private Repository<Labwork> _repository;
@@ -20,7 +19,7 @@ public class LabworkCreationTests
     }
     
     [Test]
-    public void CreateChild()
+    public void CreateFrom_WhenCreatingChildLabwork_ShouldSetParentIdentifierToParentLabworkIdentifier()
     {
         var labworkParent = _factory.Create(id => new Labwork( 
             identifier: id,
@@ -31,7 +30,6 @@ public class LabworkCreationTests
             maxScore: 15,
             parentIdentifier: null
         ));
-
         var labworkChild = _factory.CreateFrom(labworkParent);
         
         Assert.That(labworkChild.ParentIdentifier, Is.EqualTo(labworkParent.Identifier));

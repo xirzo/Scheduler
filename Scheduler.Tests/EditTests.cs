@@ -11,6 +11,7 @@ public class EditTests
     private EntityFactory<Labwork> _factory; 
     private User _author;
     private Labwork _labwork;
+    
     [SetUp]
     public void Setup()
     {
@@ -29,7 +30,7 @@ public class EditTests
     }
 
     [Test]
-    public void EditLabwork()
+    public void TryEdit_WhenAuthorEditsLabworkDescription_ShouldReturnSuccessAndUpdateDescription()
     {
         var editResult = EditService<Labwork>.TryEdit(_author, _labwork, labwork => labwork.Description = "New description");
 
