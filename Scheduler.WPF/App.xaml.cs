@@ -15,21 +15,23 @@ public partial class App : Application
         
         container.BindType<Repository<User>>().AsSingleton();
         container.BindType<Repository<Labwork>>().AsSingleton();
+        container.BindType<Repository<Subject>>().AsSingleton();
         
         container.BindType<EntityFactory<User>>().AsSingleton();
         container.BindType<EntityFactory<Labwork>>().AsSingleton();
+        container.BindType<EntityFactory<Subject>>().AsSingleton();
         
         container.BindType<UserSelector>().AsSingleton();
 
         var userFactory = container.Resolve<EntityFactory<User>>();
-        var labworkFactory = container.Resolve<EntityFactory<Labwork>>();
+        var subjectFactory = container.Resolve<EntityFactory<Subject>>();
 
         userFactory.Create(id => new User(
             identifier: id,
             name: "Aleksandr Hvastunov"
         ));
         
-        userFactory.Create(id => new User(
+        var vladSergey = userFactory.Create(id => new User(
             identifier: id,
             name: "Vlad Sergey"
         ));
@@ -38,6 +40,16 @@ public partial class App : Application
             identifier: id,
             name: "Fedor Kyrilov"
         ));
+
+        subjectFactory.Create(id => new Subject(
+            identifier: id,
+            name: "OP",
+            labworks: [],
+            lectureMaterials: [],
+            finalsType: FinalsType.Test,
+            author: vladSergey,
+            parentIdentifier: null,
+            minTestScore:20));
 
         var window = new MainWindow(container)
         {

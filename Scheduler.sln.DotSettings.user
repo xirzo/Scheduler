@@ -9,5 +9,6 @@
       &lt;TestId&gt;NUnit3x::6B0F2980-7D40-4FC4-8650-B0C05579E298::net9.0::Scheduler.Tests.LabworkCreationTests.CreateChild&lt;/TestId&gt;&#xD;
     &lt;/TestAncestor&gt;&#xD;
     &lt;ProjectFile&gt;6B0F2980-7D40-4FC4-8650-B0C05579E298/f:EditTests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;6B0F2980-7D40-4FC4-8650-B0C05579E298/f:LabworkCreationTests.cs&lt;/ProjectFile&gt;&#xD;
   &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

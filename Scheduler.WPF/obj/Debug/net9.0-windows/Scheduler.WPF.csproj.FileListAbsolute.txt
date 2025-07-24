@@ -23,3 +23,4 @@ C:\Users\garry\RiderProjects\Scheduler\Scheduler.WPF\bin\Debug\net9.0-windows\Sc
 C:\Users\garry\RiderProjects\Scheduler\Scheduler.WPF\bin\Debug\net9.0-windows\Scheduler.pdb
 C:\Users\garry\RiderProjects\Scheduler\Scheduler.WPF\obj\Debug\net9.0-windows\Scheduler.WPF.csproj.AssemblyReference.cache
 C:\Users\garry\RiderProjects\Scheduler\Scheduler.WPF\obj\Debug\net9.0-windows\Schedule.38F7FDFD.Up2Date
+C:\Users\garry\RiderProjects\Scheduler\Scheduler.WPF\obj\Debug\net9.0-windows\Scheduler.WPF.sourcelink.json

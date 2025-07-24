@@ -1,5 +1,4 @@
 ﻿using Scheduler.Entities;
-using Scheduler.Repositories;
 
 namespace Scheduler.Services;
 
